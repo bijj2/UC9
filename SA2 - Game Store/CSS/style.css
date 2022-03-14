@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 180px;
+    background-color: #ffffff;
+}
+
+.container-grid{
+    width: 75%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 300px;
+}
+.sacolinha{
+    width: 60px;
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF8F50;
+}
+
+.menu a{
+    width: 100%;
+    text-align: center;
+    margin: 14px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 18px;    
+}
+
+.bannerfull{
+    width: auto;
+    height: 600px;
+    margin: auto;
+    background-image: url(../img/Banner\ Full.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+}
+
+.bannerfull img{
+    width: 100%;
+}
+
+.secao-minibanners{
+    width: 1350px;
+    
+}
+
+.minibanners{
+    margin-top: 25px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.minibanners img{
+ height: 400px;
+ width: 550px;
+ align-items: center;
+}
+
+.sobre-nos{
+margin-top: 25px;
+background: #FF8F50;
+
+}
+
+.conteudo-sobre{
+display:flex;
+}
+
+.container-img img{
+    margin-top: 10%;
+    height: 400px;
+    width: 550px;
+}
+
+.conteudo-texto{
+    margin-top: 20%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.barras{
+    width: 50px;
+    display: none;
+    }
+.posicionamento-header{
+    position: relative;
+    }
+.Destaque{
+    width: 1250px;
+}
+.Destaque h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.Produto{
+    width:250px;
+    height: 460px;
+    margin-bottom: 32px;
+}
+.Produto h4{
+    font-size: 18px;
+    justify-content: center;
+}
+.Produto p{
+    justify-content: center;
+}
+.imagem{
+    width: 250px;
+}
+.comprar{
+    width: 200px;
+}
+.blocos-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin: 5%;
+}
+footer{
+    background: #FF8F50;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.institucional h2{
+ font-size: 20px;
+}
+.atendimento h2{
+    font-size: 20px;
+}
+.links{
+    display: flex;
+    justify-content: space-between ;
+    width: 400px;
+}
+.sociais h2{
+    font: 20px;
+}
+@media screen and (max-width:1200px) {
+    .container-grid{
+    width: 75%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+    }
+
+    .menu a{
+        font-size: 16px;
+    }
+
+    .logo{
+        width: 140px;
+    }
+}
+@media screen and (max-width:760px) {
+    .menu a{
+        font-size: 14px;
+    }
+    .barras{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 0;
+        background: #FF8F50;
+    }
+    .logo{
+        width: 180px;
+    }
+
+}
