@@ -138,26 +138,78 @@ display:flex;
     margin: 5%;
 }
 footer{
+    height: auto;
     background: #FF8F50;
 }
 .rodape{
     display: flex;
     justify-content: space-between;
     padding: 16px;
+    flex-wrap: wrap
 }
 .institucional h2{
- font-size: 20px;
+ font-size: 22px;
+ font-weight: bold
 }
 .atendimento h2{
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: bold
 }
 .links{
     display: flex;
     justify-content: space-between ;
-    width: 400px;
+    padding: 16px;
+    width: 1500px;
 }
 .sociais h2{
-    font: 20px;
+    font-size: 22px;
+    font-weight: bold
+}
+.formas-de-pagamento h2{
+    font-size: 22px;
+    font-weight: bold
+}
+.ebit h2{
+    font-size: 25px;
+    font-weight: bold
+}
+.ebit img{
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.ebit{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+.plataforma{
+    width: 1300px;
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+.plataforma img{
+    width: 166px;
+    display: flex;
+    align-items: center;
+
+}
+.dados{
+    width: 1300px;
+    height: auto;
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+}
+.dados p{
+    display: flex;
+    font-size: 16px;
+    margin-top: 2%;
 }
 @media screen and (max-width:1200px) {
     .container-grid{
