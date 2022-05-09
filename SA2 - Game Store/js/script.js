@@ -20,11 +20,17 @@ function slide(){
         $("#carrossel img:eq(0)").addClass("banner-ativo").show()
     }
 }
-
-//function mostrarpopup(){
-//    window.alert("Seja Bem-Vindo")
-//}
-
+$("#entrar").click(function() {
+    var email = $("#email").val();
+    var senha = $("#senha").val();
+  if (email == "senai@123.com.br" && senha == "12345678") {
+    window.location.href = "bemvindo.html";
+    } else {
+      alert("Login ou senha incorretos");
+      $("#email").val("senai@123.com.br");
+      $("#senha").val("12345678");
+    }
+  });
 let listaDestaques = [
     {
         Nome:"teste teste teste Bia",

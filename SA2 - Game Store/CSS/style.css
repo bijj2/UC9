@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 header{
-    height: 180px;
+    height: auto;
     background-color: #ffffff;
 }
 
@@ -26,8 +26,7 @@ header{
 .sacolinha{
     width: 60px;
 }
-
-button, input, optgroup, select, textarea{
+.campo-busca{
     background-color: #ffffff;
     border-color: black;
     border-radius: 40px;
@@ -58,15 +57,14 @@ button, input, optgroup, select, textarea{
     font-size: 18px;    
 }
 
-.bannerfull{
+/*.bannerfull{
     width: auto;
     height: 350px;
     background-image: url(../img/Bannerfull.png);
     background-repeat: no-repeat;
     background-size: cover;
     display:flex;
-    margin-top: 3%;
-}
+}*/
 
 #carrossel img{
     display: none;
@@ -74,7 +72,6 @@ button, input, optgroup, select, textarea{
 
 .banner-ativo{
     display: flex;
-    margin-top: 3%;
 }
 .secao-minibanners{
     width: 1250px;  
@@ -124,7 +121,7 @@ display:flex;
 .Destaque{
     width: 1250px;
 }
-.Destaque h1{
+.Destaque h2{
     display: flex;
     justify-content: center;
     margin-top: 5%;
@@ -137,6 +134,9 @@ display:flex;
 }
 .Produto h4{
     font-size: 18px;
+}
+.listagem{
+    width: auto;
 }
 .Produto p{
     justify-content: center;
@@ -154,6 +154,26 @@ display:flex;
     align-items: center;
     margin-top: 25px;
     margin: 5%;
+}
+.pag{
+    margin-top: 6%;
+    width: 1350px;
+
+}
+
+.pag h2{
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.pag p{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 footer{
     height: auto;
@@ -178,6 +198,11 @@ footer{
     justify-content: space-between ;
     padding: 16px;
     width: 1500px;
+}
+.links a {
+    text-decoration: none;
+    color: black;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .sociais h2{
     font-size: 22px;
@@ -229,6 +254,78 @@ footer{
     font-size: 16px;
     margin-top: 2%;
 }
+.login-input{
+    cursor:pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: flex;
+    margin-bottom: 2%;
+    width: 300px;
+    border-color: #FF8F50;
+    border-radius: 40px;
+    text-align: center;
+}
+.login-container{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.login-container h2{
+    margin-bottom: 3%;
+}
+.entrar{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100px;
+}
+.alinhar-cad-esq{
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+.alinhar-cad-esq a{
+    display: flex;
+    padding: 2%;
+    margin-left: 8%;
+    margin-bottom: 20%;
+}
+.cadastro{
+    margin-top: 4%;
+    width: 1350px;
+    align-items: center;
+    cursor:pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+.cadastro h2{
+    margin-bottom: 5%;
+}
+.form-control{
+    width: 400px;
+    margin-bottom: 2%;
+    border-color: #FF8F50;
+    border-radius: 40px;
+    text-align: center;
+}
+.bem-vindo{
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20%;
+    justify-content: center;
+}
+.bem-vindo img{
+    width: 500px;
+}
+.form-group{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 2%;
+}
 @media screen and (max-width:1200px) {
     .container-grid{
     width: 75%;
@@ -249,7 +346,9 @@ footer{
 }
 @media screen and (max-width:760px) {
     .menu a{
+        text-align: center;
         font-size: 14px;
+        padding: 15px;
     }
     .barras{
         display: inline-block;
