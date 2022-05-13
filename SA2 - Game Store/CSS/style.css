@@ -157,7 +157,7 @@ display:flex;
 }
 .pag{
     margin-top: 6%;
-    width: 1350px;
+    width: 100%;
 
 }
 
@@ -351,22 +351,96 @@ footer{
         padding: 15px;
     }
     .barras{
+        width: 30px;
         display: inline-block;
+        display: flex;
+        align-items: left;
     }
+
     .menu{
         display: none;
         flex-direction: column;
         width: 250px;
-        height: 250px;
+        height: auto;
         position: absolute;
         top: 0;
         background: #FF8F50;
+        text-align: center;
+        padding: 15px;
     }
+
     .logo{
-        width: 180px;
+        width: 150px;
     }
     .menu-ativo{
         display: flex;
     }
-
+    .sacolinha{
+        width: 50px;
+    }
+    .campo-busca{
+        background-color: #ffffff;
+        border-color: black;
+        border-radius: 40px;
+        width: 200px;
+        text-align: center;
+    }
+    .minhaconta{
+        font-size: 12px;
+    }
+    .carrossel img{
+        width: 760px;
+    }
+    .minibanners{
+        flex-direction: column;
+    }
+    .minibanners img{
+        width: 500px;
+        margin-bottom: 3%;
+    }
+    .Destaque{
+        width: 760px;
+    }
+    .Destaque h2{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        text-decoration: underline;
+    }
+    .Produto{
+        width:250px;
+        height: 460px;
+        margin-bottom: 32px;
+    }
+    .Produto h4{
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .listagem{
+        width: auto;
+    }
+    .Produto p{
+        justify-content: center;
+        display: flex;
+    }
+    .imagem{
+        width: 250px;
+    }
+    .comprar img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+    }
+    .blocos-produtos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+        margin: 10%;
+    }
 }
