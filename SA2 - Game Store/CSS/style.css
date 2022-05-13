@@ -443,4 +443,13 @@ footer{
         margin-top: 25px;
         margin: 10%;
     }
+    .container-img img{
+        margin-top: 10%;
+        height: 200px;
+        width: 300px;
+    }
+    .conteudo-texto p{
+        font-size: 13px;
+        margin-right: 5%;
+    }
 }
